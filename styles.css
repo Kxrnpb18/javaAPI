@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Set background color and font for the scene */
+.root {
+    -fx-background-color: #F0F0F0;
+    -fx-font-family: Arial, sans-serif;
+}
+
+/* Style the instructions text */
+.instructions-text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-padding: 20px;
+}
+
+/* Style the fetch button */
+.fetch-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+/* On hover, change button background color */
+.fetch-button:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* On click, change button background color */
+.fetch-button:pressed {
+    -fx-background-color: #003d80;
+}
+
+/* Style the cocktail search button */
+.search-cocktail-button {
+    -fx-background-color: #ff851b;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+/* On hover, change the cocktail search button background color */
+.search-cocktail-button:hover {
+    -fx-background-color: #e57100;
+}
+
+/* On click, change the cocktail search button background color */
+.search-cocktail-button:pressed {
+    -fx-background-color: #b35900;
+}
